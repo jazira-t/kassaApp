@@ -16,9 +16,6 @@ import kg.megacom.kassaapp.services.impl.ProductServiceImpl;
 public class ProductEditController {
 
     private Product product;
-    //private CategoryServiceImpl categoryService = CategoryServiceImpl.getINSTANCE();
-    //private UnitServiceImpl unitService = UnitServiceImpl.getINSTANCE();
-
     @FXML
     private ComboBox<Category> cmbCategories;
 

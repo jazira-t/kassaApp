@@ -13,7 +13,6 @@ import java.sql.SQLException;
 
 public class CategoryEditController {
 
-    //private CategoryServiceImpl categoryService = CategoryServiceImpl.getINSTANCE();
     private Category category;
 
 

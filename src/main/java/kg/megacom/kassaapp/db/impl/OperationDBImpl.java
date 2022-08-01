@@ -42,8 +42,6 @@ public class OperationDBImpl implements OperationDB {
             ResultSet rs = ps.executeQuery();
             Operation operation = new Operation();
             operation.setId(rs.getInt(1));
-            //System.out.println((rs.getDate(2)));
-            //operation.setAddDate(rs.getDate(2));
             operation.setTotal(rs.getInt(3));
 
             return operation;

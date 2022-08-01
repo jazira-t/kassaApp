@@ -21,8 +21,6 @@ import kg.megacom.kassaapp.services.impl.CategoryServiceImpl;
 
 public class CategoryController {
 
-    //private CategoryServiceImpl categoryService = CategoryServiceImpl.getINSTANCE();
-
     @FXML
     private ListView<Category> listViewCategories;
 
